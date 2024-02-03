@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Geolocalizacion</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBo2fg362Rqsy9bPJIui5X98CN7plv7zU&callback=initMap">
+    </script>
+</head>
+<body>
+    <button onclick="obtenerPosicion()">Dibujame</button>
+    <br>
+    <input id="latitud_destino" type="text" placeholder="Latitud del destino">
+    <input id="longitud_destino" type="text" placeholder="Longitud del destino">
+    <button id="destino">Establecer destino</button>
+    <div id="map"></div>
+    <div id="error"></div>
+    <section id="caja_mensajes"></section>
+</body>
+</html>
