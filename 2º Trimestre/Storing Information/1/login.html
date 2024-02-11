@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Storing information</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<button id="bot-log">Login</button>
+<button id="bot-reg">Register</button>
+<button id="bot-out">Logout</button>
+<button id="bot-del">Borrar Cuenta</button>
+<section id="log-section">
+    <form>
+        <label for="nombre" id="log-nombre-label">Nombre:</label>
+        <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+        <label for="edad" id="log-edad-label">Edad:</label>
+        <input type="number" name="edad" id="edad" placeholder="Edad">
+        <button>Login</button>
+    </form>
+</section>
+<section id="reg-section">
+    <form>
+        <label for="nombre" id="reg-nombre-label">Nombre:</label>
+        <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+        <label for="edad" id="reg-edad-label">Edad:</label>
+        <input type="number" name="edad" id="edad" placeholder="Edad">
+        <label for="sexo" id="reg-sexo-label">Sexo:</label>
+        <select name="sexo" id="sexo">
+            <option value="hombre">Hombre</option>
+            <option value="mujer">Mujer</option>
+            <option value="otro">Otro</option>
+        </select>
+        <label for="color" id="reg-color-label">Color:</label>
+        <select name="color" id="color">
+            <option value="black">Negro</option>
+            <option value="red">Rojo</option>
+            <option value="green">Verde</option>
+            <option value="blue">Azul</option>
+        </select>
+        <label for="idioma" id="reg-idioma-label">Idioma:</label>
+        <select name="idioma" id="idioma">
+            <option value="español">Español</option>
+            <option value="ingles">Ingles</option>
+            <option value="frances">Frances</option>
+        </select>
+        <button>Register</button>
+    </form>
+</section>
+</body>
+</html>
